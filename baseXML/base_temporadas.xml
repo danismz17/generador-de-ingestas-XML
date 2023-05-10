@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADI>
+  <Metadata>
+   <AMS Asset_Class="package" Asset_ID="PACK_00873_000000041" Asset_Name="Lost (series 1)" Creation_Date="2004" Description="Lost (series 1) Package" Product="SVOD" Provider="SoporteSVA" Provider_ID="00873" Verb="" Version_Major="1" Version_Minor="0"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsSOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Asset_Class="title" Asset_ID="000000041" Asset_Name="Lost (series 1)" Creation_Date="2004" Description="Lost (series 1) Title" Product="SVOD" Provider="SoporteSVA" Provider_ID="00873" Verb="" Version_Major="1" Version_Minor="0"/>
+      <App_Data App="SVOD" Name="Type" Value="title"/>
+      <App_Data App="SVOD" Name="Show_Name" Value="Lost" />
+      <App_Data App="SVOD" Name="Show_ID" Value="0087300040"/>
+      <App_Data App="SVOD" Name="Series_ID" Value="0087300041"/>
+      <App_Data App="SVOD" Name="Series_Name" Value="Season 1"/>
+      <App_Data App="SVOD" Name="Series_Ordinal" Value="1"/>
+      <App_Data App="SVOD" Name="Rating" Value="+17"/>
+      <App_Data App="SVOD" Name="Run_Time" Value="00:45:00"/>
+      <App_Data App="SVOD" Name="Display_Run_Time" Value="00:45"/>
+      <App_Data App="SVOD" Name="Year" Value="2020"/>
+      <App_Data App="SVOD" Name="Country_of_Origin" Value="EEUU"/>
+      <App_Data App="SVOD" Name="Show_Type" Value="Series"/>
+      <App_Data App="SVOD" Name="Category" Value="Terror y Suspenso"/>
+      <App_Data App="SVOD" Language="es" Name="Genre" Value="Terror y Suspenso"/>
+      <App_Data App="SVOD" Name="Original_Language" Value="es"/>
+      <App_Data App="SVOD" Name="Actors_Display" Value="Matthew Fox, Jorge García, Josh Holloway, Evangeline Lilly"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Matthew Fox"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Jorge García"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Josh Holloway"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Evangeline Lilly"/>
+      <App_Data App="SVOD" Language="es" Name="Director" Value="J. J. Abrams"/>
+      <App_Data App="SVOD" Name="Billing_ID" Value="0087300041"/>
+      <App_Data App="SVOD" Name="Licensing_Window_Start" Value="2020-10-16T06:00:00"/>
+      <App_Data App="SVOD" Name="Licensing_Window_End" Value="2022-03-24T05:59:59"/>
+      <App_Data App="SVOD" Language="es" Name="Title" Value="Lost Temporada 1"/>
+      <App_Data App="SVOD" Language="es" Name="Title_Brief" Value="Lost Temporada 1"/>
+      <App_Data App="SVOD" Language="es" Name="Summary_Short" Value="Luego de una situación inexplicable deben encontrar el lugar de cada uno en esta nueva vida"/>
+      <App_Data App="SVOD" Language="es" Name="Summary_Long" Value="Luego de una situación inexplicable deben encontrar el lugar de cada uno en esta nueva vida"/>en unos jóvenes científicos de la Universidad de Miskatonic que inventan una máquina del tiempo. Desafortunadamente, descubren que están siendo manipulados por fuerzas misteriosas e invisibles de otra dimensión que pronto conocerán." />
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="box cover" Asset_ID="IMAG_1_00873_000000041" Asset_Name="Lost (series 1)" Creation_Date="2004" Description="Lost (series 1) box cover" Product="SVOD" Provider="SoporteSVA" Provider_ID="00873" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="SVOD" Name="Type" Value="box cover"/>
+        <App_Data App="SVOD" Name="Image_Aspect_Ratio" Value="1920x1080"/>
+        <App_Data App="SVOD" Name="Content_Filesize" Value="713453"/>
+        <App_Data App="SVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="P1000000041.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="IMAG_2_00873_000000041" Asset_Name="Lost (series 1)" Creation_Date="2004" Description="Lost (series 1) poster" Product="SVOD" Provider="SoporteSVA" Provider_ID="00873" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="SVOD" Name="Type" Value="poster"/>
+        <App_Data App="SVOD" Name="Image_Aspect_Ratio" Value="1000x1400"/>
+        <App_Data App="SVOD" Name="Content_Filesize" Value="379778"/>
+        <App_Data App="SVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="P2000000041.jpg"/>
+    </Asset>  
+  </Asset>	
+</ADI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADI>
+  <Metadata>
+   <AMS Asset_Class="package" Asset_ID="PACK_#idProveedor_#numeroContenido" Asset_Name="#tituloContenido" Creation_Date="#idAño" Description="#tituloContenido Package" Product="#tipoContenido" Provider="#nombreProveedor" Provider_ID="#idProveedor" Verb="" Version_Major="1" Version_Minor="0"/>
+    <App_Data App="#tipoContenido" Name="Metadata_Spec_Version" Value="CableLabsSOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Asset_Class="title" Asset_ID="#numeroContenido" Asset_Name="#tituloContenido" Creation_Date="#idAño" Description="#tituloContenido Title" Product="#tipoContenido" Provider="#nombreProveedor" Provider_ID="#idProveedor" Verb="" Version_Major="1" Version_Minor="0"/>
+      <App_Data App="#tipoContenido" Name="Type" Value="title"/>
+      <App_Data App="#tipoContenido" Name="Rating" Value="#clasEdad"/>
+      <App_Data App="#tipoContenido" Name="Run_Time" Value="00:02:46"/>
+      <App_Data App="#tipoContenido" Name="Display_Run_Time" Value="00:02"/>
+      <App_Data App="#tipoContenido" Name="Year" Value="#idAño"/>
+      <App_Data App="#tipoContenido" Name="Country_of_Origin" Value="#pais"/>
+      <App_Data App="#tipoContenido" Name="Show_Type" Value="Movie"/>
+      <App_Data App="#tipoContenido" Name="Category" Value="#genero"/>
+      <App_Data App="#tipoContenido" Language="es" Name="Genre" Value="#genero"/>
+      <App_Data App="#tipoContenido" Name="Original_Language" Value="es"/>
+      <App_Data App="#tipoContenido" Name="Actors_Display" Value="#actor1, #actor2"/>
+      <App_Data App="#tipoContenido" Language="es" Name="Actors" Value="#actor1"/>
+      <App_Data App="#tipoContenido" Language="es" Name="Actors" Value="#actor2"/>
+      <App_Data App="#tipoContenido" Language="es" Name="Director" Value="#director"/>
+      <App_Data App="#tipoContenido" Name="Billing_ID" Value="#idProveedor_+_#numeroContenido"/>
+      <App_Data App="#tipoContenido" Name="Licensing_Window_Start" Value="#fechaInicio"/>
+      <App_Data App="#tipoContenido" Name="Licensing_Window_End" Value="#fechaFin"/>
+      <App_Data App="#tipoContenido" Language="es" Name="Title" Value="#tituloContenido"/>
+      <App_Data App="#tipoContenido" Language="es" Name="Title_Brief" Value="#tituloContenido"/>
+      <App_Data App="#tipoContenido" Language="es" Name="Summary_Short" Value="#descCorta" />
+      <App_Data App="#tipoContenido" Language="es" Name="Summary_Long" Value="#descLarga" />
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="movie" Asset_ID="CONT_#idProveedor_#numeroContenido" Asset_Name="#tituloContenido" Creation_Date="#idAño" Description="#tituloContenido movie" Product="#tipoContenido" Provider="#nombreProveedor" Provider_ID="#idProveedor" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="#tipoContenido" Name="Type" Value="movie"/>
+        <App_Data App="#tipoContenido" Name="Audio_Type" Value="Stereo"/>
+        <App_Data App="#tipoContenido" Name="HDContent" Value="Y"/>
+        <App_Data App="#tipoContenido" Name="Languages" Value="es"/>
+        <App_Data App="#tipoContenido" Name="Content_Filesize" Value="32663982"/>
+        <App_Data App="#tipoContenido" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="#video"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="IMAG_1_#idProveedor_#numeroContenido" Asset_Name="#tituloContenido" Creation_Date="#idAño" Description="#tituloContenido poster" Product="#tipoContenido" Provider="#nombreProveedor" Provider_ID="#idProveedor" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="#tipoContenido" Name="Type" Value="poster"/>
+        <App_Data App="#tipoContenido" Name="Image_Aspect_Ratio" Value="1920x1080"/>
+        <App_Data App="#tipoContenido" Name="Content_Filesize" Value="1212575"/>
+        <App_Data App="#tipoContenido" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="#imagenHorizontal"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="IMAG_2_#idProveedor_#numeroContenido" Asset_Name="#tituloContenido" Creation_Date="#idAño" Description="#tituloContenido poster" Product="#tipoContenido" Provider="#nombreProveedor" Provider_ID="#idProveedor" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="#tipoContenido" Name="Type" Value="poster"/>
+        <App_Data App="#tipoContenido" Name="Image_Aspect_Ratio" Value="1000x1400"/>
+        <App_Data App="#tipoContenido" Name="Content_Filesize" Value="1088008"/>
+        <App_Data App="#tipoContenido" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="#imagenVertical"/>
+    </Asset>  
+  </Asset>	
+</ADI>

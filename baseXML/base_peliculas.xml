@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADI>
+  <Metadata>
+   <AMS Asset_Class="package" Asset_ID="PACK_00890_000000001" Asset_Name="Doctor Strange en el Multiverso de la Locura" Creation_Date="2022" Description="Doctor Strange en el Multiverso de la Locura Package" Product="SVOD" Provider="vu-prep22" Provider_ID="00890" Verb="" Version_Major="1" Version_Minor="0"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsSOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Asset_Class="title" Asset_ID="000000001" Asset_Name="Doctor Strange en el Multiverso de la Locura" Creation_Date="2022" Description="Doctor Strange en el Multiverso de la Locura Title" Product="SVOD" Provider="vu-prep22" Provider_ID="00890" Verb="" Version_Major="1" Version_Minor="0"/>
+      <App_Data App="SVOD" Name="Type" Value="title"/>
+      <App_Data App="SVOD" Name="Rating" Value="ATP"/>
+      <App_Data App="SVOD" Name="Run_Time" Value="00:02:16"/>
+      <App_Data App="SVOD" Name="Display_Run_Time" Value="00:02"/>
+      <App_Data App="SVOD" Name="Year" Value="2022"/>
+      <App_Data App="SVOD" Name="Country_of_Origin" Value="EEUU"/>
+      <App_Data App="SVOD" Name="Show_Type" Value="Movie"/>
+      <App_Data App="SVOD" Name="Category" Value="Acción y Aventura"/>
+      <App_Data App="SVOD" Language="es" Name="Genre" Value="Acción y Aventura"/>
+      <App_Data App="SVOD" Name="Original_Language" Value="es"/>
+      <App_Data App="SVOD" Name="Actors_Display" Value="Benedict Cumberbatch, Elizabeth Olsen"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Benedict Cumberbatch"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Elizabeth Olsen"/>
+      <App_Data App="SVOD" Language="es" Name="Director" Value="Sam Raimi"/>
+      <App_Data App="SVOD" Name="Billing_ID" Value="0089000001"/>
+      <App_Data App="SVOD" Name="Licensing_Window_Start" Value="2020-01-01T06:00:00"/>
+      <App_Data App="SVOD" Name="Licensing_Window_End" Value="2027-01-01T05:59:59"/>
+      <App_Data App="SVOD" Language="es" Name="Title" Value="Doctor Strange en el Multiverso de la Locura"/>
+      <App_Data App="SVOD" Language="es" Name="Title_Brief" Value="Doctor Strange en el Multiverso de la Locura"/>
+      <App_Data App="SVOD" Language="es" Name="Summary_Short" Value="El Dr. Stephen Strange abre un portal al multiverso al utilizar un hechizo prohibido. Ahora su equipo debe enfrentarse a una amenaza enorme." />
+      <App_Data App="SVOD" Language="es" Name="Summary_Long" Value="El Dr. Stephen Strange abre un portal al multiverso al utilizar un hechizo prohibido. Ahora su equipo debe enfrentarse a una amenaza enorme." />
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="movie" Asset_ID="CONT_00890_000000001" Asset_Name="Doctor Strange en el Multiverso de la Locura" Creation_Date="2022" Description="Doctor Strange en el Multiverso de la Locura movie" Product="SVOD" Provider="vu-prep22" Provider_ID="00890" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="SVOD" Name="Type" Value="movie"/>
+        <App_Data App="SVOD" Name="Audio_Type" Value="Stereo"/>
+        <App_Data App="SVOD" Name="HDContent" Value="Y"/>
+        <App_Data App="SVOD" Name="Languages" Value="es"/>
+        <App_Data App="SVOD" Name="Content_Filesize" Value="63054041"/>
+        <App_Data App="SVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="M000000001.mp4"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="IMAG_1_00890_000000001" Asset_Name="Doctor Strange en el Multiverso de la Locura" Creation_Date="2022" Description="Doctor Strange en el Multiverso de la Locura poster" Product="SVOD" Provider="vu-prep22" Provider_ID="00890" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="SVOD" Name="Type" Value="poster"/>
+        <App_Data App="SVOD" Name="Image_Aspect_Ratio" Value="1920x1080"/>
+        <App_Data App="SVOD" Name="Content_Filesize" Value="80624915"/>
+        <App_Data App="SVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="P1000000001.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="IMAG_2_00890_000000001" Asset_Name="Doctor Strange en el Multiverso de la Locura" Creation_Date="2022" Description="Doctor Strange en el Multiverso de la Locura poster" Product="SVOD" Provider="vu-prep22" Provider_ID="00890" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="SVOD" Name="Type" Value="poster"/>
+        <App_Data App="SVOD" Name="Image_Aspect_Ratio" Value="1000x1400"/>
+        <App_Data App="SVOD" Name="Content_Filesize" Value="2835191"/>
+        <App_Data App="SVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="P2000000001.jpg"/>
+    </Asset>  
+  </Asset>	
+</ADI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADI>
+  <Metadata>
+   <AMS Asset_Class="package" Asset_ID="PACK_00873_000000042" Asset_Name="Lost S1 E1" Creation_Date="2004" Description="Lost S1 E1 Package" Product="SVOD" Provider="SoporteSVA" Provider_ID="00873" Verb="" Version_Major="1" Version_Minor="0"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsSOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Asset_Class="title" Asset_ID="000000042" Asset_Name="Lost S1 E1" Creation_Date="2004" Description="Lost S1 E1 Title" Product="SVOD" Provider="SoporteSVA" Provider_ID="00873" Verb="" Version_Major="1" Version_Minor="0"/>
+      <App_Data App="SVOD" Name="Type" Value="title"/>
+      <App_Data App="SVOD" Name="Episode_ID" Value="0087300042"/>
+      <App_Data App="SVOD" Name="Show_Name" Value="Lost"/>
+      <App_Data App="SVOD" Name="Show_ID" Value="0087300040"/>
+      <App_Data App="SVOD" Name="Series_ID" Value="0087300041"/>
+      <App_Data App="SVOD" Name="Series_Name" Value="Season 1"/>
+      <App_Data App="SVOD" Name="Series_Ordinal" Value="1"/>
+      <App_Data App="SVOD" Name="Episode_Ordinal" Value="1"/>
+      <App_Data App="SVOD" Name="Rating" Value="+17"/>
+      <App_Data App="SVOD" Name="Run_Time" Value="00:01:47"/>
+      <App_Data App="SVOD" Name="Display_Run_Time" Value="00:01"/>
+      <App_Data App="SVOD" Name="Year" Value="2004"/>
+      <App_Data App="SVOD" Name="Country_of_Origin" Value="Estados Unidos"/>
+      <App_Data App="SVOD" Name="Show_Type" Value="Series"/>
+      <App_Data App="SVOD" Name="Category" Value="Terror y Suspenso"/>
+      <App_Data App="SVOD" Language="es" Name="Genre" Value="Terror y Suspenso"/>
+      <App_Data App="SVOD" Name="Original_Language" Value="es"/>
+      <App_Data App="SVOD" Name="Actors_Display" Value="Matthew Fox, Evangeline Lilly, Jorge García"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Matthew Fox"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Evangeline Lilly"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Jorge García"/>
+      <App_Data App="SVOD" Language="es" Name="Director" Value="J. J. Abram"/>
+      <App_Data App="SVOD" Name="Billing_ID" Value="0087300042"/>
+      <App_Data App="SVOD" Name="Licensing_Window_Start" Value="2020-10-22T06:00:00"/>
+      <App_Data App="SVOD" Name="Licensing_Window_End" Value="2022-10-19T05:59:59"/>
+      <App_Data App="SVOD" Language="es" Name="Title" Value="Episodio 1"/>
+      <App_Data App="SVOD" Language="es" Name="Title_Brief" Value="Episodio 1"/>
+      <App_Data App="SVOD" Language="es" Name="Summary_Short" Value="Rugidos misteriosos son emitidos desde la selva." />
+      <App_Data App="SVOD" Language="es" Name="Summary_Long" Value="Rugidos misteriosos son emitidos desde la selva." />
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="movie" Asset_ID="CONT_00873_000000042" Asset_Name="Lost S1 E1" Creation_Date="2004" Description="Lost S1 E1 Movie" Product="SVOD" Provider="SoporteSVA" Provider_ID="00873" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="SVOD" Name="Type" Value="movie"/>
+        <App_Data App="SVOD" Name="Audio_Type" Value="Stereo"/>
+        <App_Data App="SVOD" Name="HDContent" Value="Y"/>
+        <App_Data App="SVOD" Name="Languages" Value="es"/>
+        <App_Data App="SVOD" Name="Content_Filesize" Value="7181983"/>
+        <App_Data App="SVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="M000000042.mp4"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="IMAG_1_00873_000000042" Asset_Name="Lost S1 E1" Creation_Date="2004" Description="Lost S1 E1 Poster" Product="SVOD" Provider="SoporteSVA" Provider_ID="00873" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="SVOD" Name="Type" Value="poster"/>
+        <App_Data App="SVOD" Name="Image_Aspect_Ratio" Value="1920x1080"/>
+        <App_Data App="SVOD" Name="Content_Filesize" Value="323899"/>
+        <App_Data App="SVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="P1000000042.jpg"/>
+    </Asset>
+   </Asset>	
+</ADI>

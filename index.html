@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Describe tu sitio" />
+  <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/img/ico/favicon.png" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+  <title>Generador de EPG</title>
+</head>
+
+<body>
+  <div class="app-container">
+    <div class="app-background">
+      <div class="centrador-index">
+        <div class="index-container" data-aos="fade-right">
+          <div class="logo-index">
+            <img src="img/ico/veratv.png" alt="" />
+          </div>
+          <div class="titulo-container">
+            <h1>Generador de XML Para Ingesta</h1>
+          </div>
+          <div class="subtitulo-container">
+            <h2>
+              Selecciona el tipo de archivo XML que deseas crear según tu
+              contenido
+            </h2>
+            <img src="img/ico/select.png" alt="" />
+          </div>
+          <div class="select-container">
+            <select class="select-estilos" id="SelecContenido">
+              <option value="" disabled selected hidden>
+                Selecciona tu contenido
+              </option>
+              <option value="pelicula.html">Pelicula</option>
+              <option value="pelicula-c-trailer.html">
+                Pelicula con trailer
+              </option>
+              <option value="pelicula-c-subtitulos.html">
+                Pelicula con subtitulos
+              </option>
+              <option value="pelicula-c-subtitulos-y-trailer.html">
+                Pelicula con subtitulos, trailer e imagen de trailer
+              </option>
+              <option value="serie.html">Serie</option>
+              <option value="temporada.html">Temporada</option>
+              <option value="capitulo.html">Capitulo</option>
+              <option value="otros.html">Otros</option>
+              <option value="relicencia.html">Relicencias</option>
+            </select>
+          </div>
+          <div class="boton-ingresar-box">
+            <div class="boton-verde" id="botonIngresar" onclick="accionBoton()">
+              <a href="#">Ingresar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+<script src="js/FileSaver.js"></script>
+<script src="js/main.js"></script>
+
+</html>

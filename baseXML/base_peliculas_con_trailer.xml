@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADI>
+  <Metadata>
+   <AMS Asset_Class="package" Asset_ID="PACK_00890_000000019" Asset_Name="The Jack In The Box" Creation_Date="2021" Dencription="The Jack In The Box Package" Product="TVOD" Provider="veramas_prep22" Provider_ID="00890" Verb="" Version_Major="1" Version_Minor="0"/>
+    <App_Data App="TVOD" Name="Metadata_Spec_Version" Value="CableLabsSOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Asset_Class="title" Asset_ID="000000019" Asset_Name="The Jack In The Box" Creation_Date="2021" Dencription="The Jack In The Box Title" Product="TVOD" Provider="veramas_prep22" Provider_ID="00890" Verb="" Version_Major="1" Version_Minor="0"/>
+      <App_Data App="TVOD" Name="Type" Value="title"/>
+      <App_Data App="TVOD" Name="Rating" Value="+18"/>
+      <App_Data App="TVOD" Name="Run_Time" Value="00:05:00"/>
+      <App_Data App="TVOD" Name="Display_Run_Time" Value="00:05"/>
+      <App_Data App="TVOD" Name="Year" Value="2021"/>
+      <App_Data App="TVOD" Name="Country_of_Origin" Value="EEUU"/>
+      <App_Data App="TVOD" Name="Show_Type" Value="Movie"/>
+      <App_Data App="TVOD" Name="Category" Value="Terror y Suspenso"/>
+      <App_Data App="TVOD" Language="en" Name="Genre" Value="Terror y Suspenso"/>
+      <App_Data App="TVOD" Name="Original_Language" Value="en"/>
+      <App_Data App="TVOD" Name="Actors_Display" Value="Ethan Taylor, Robert Nairne, Lucy‑Jane Quinlan"/>
+      <App_Data App="TVOD" Language="en" Name="Actors" Value="Ethan Taylor"/>
+      <App_Data App="TVOD" Language="en" Name="Actors" Value="Robert Nairne"/>
+      <App_Data App="TVOD" Language="en" Name="Actors" Value="Lucy‑Jane Quinlan"/>
+      <App_Data App="TVOD" Language="en" Name="Director" Value="Lawrence Fowler"/>
+      <App_Data App="TVOD" Name="Billing_ID" Value="0089000013"/>
+      <App_Data App="TVOD" Name="Licensing_Window_Start" Value="2021-09-10T06:00:00"/>
+      <App_Data App="TVOD" Name="Licensing_Window_End" Value="2025-10-15T05:59:59"/>
+      <App_Data App="TVOD" Language="en" Name="Title" Value="The Jack In The Box"/>
+      <App_Data App="TVOD" Language="en" Name="Title_Brief" Value="The Jack In The Box"/>
+      <App_Data App="TVOD" Language="en" Name="Summary_Short" Value="Los amigos de Casey empiezan a morir desde que llegó al museo una antigua caja con un muñeco dentro. Casey empieza a sospechar que este espeluznante juguete tiene vida propia y es el culpable de los horrores que se están sucediendo." />
+      <App_Data App="TVOD" Language="en" Name="Summary_Long" Value="Los amigos de Casey empiezan a morir desde que llegó al museo una antigua caja con un muñeco dentro. Casey empieza a sospechar que este espeluznante juguete tiene vida propia y es el culpable de los horrores que se están sucediendo." />
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="movie" Asset_ID="CONT_00890_000000019" Asset_Name="The Jack In The Box" Creation_Date="2021" Dencription="The Jack In The Box movie" Product="TVOD" Provider="veramas_prep22" Provider_ID="00890" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="TVOD" Name="Type" Value="movie"/>
+        <App_Data App="TVOD" Name="Audio_Type" Value="Stereo"/>
+        <App_Data App="TVOD" Name="HDContent" Value="Y"/>
+        <App_Data App="TVOD" Name="Languagen" Value="en"/>
+        <App_Data App="TVOD" Name="Content_Filenize" Value="95694740"/>
+        <App_Data App="TVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+   <Content Value="M000000019.mp4"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="preview" Asset_ID="PREV_00890_000000019" Asset_Name="The Jack In The Box" Creation_Date="2021" Dencription="The Jack In The Box preview" Product="TVOD" Provider="veramas_prep22" Provider_ID="00890" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="TVOD" Name="Type" Value="preview"/>
+        <App_Data App="TVOD" Name="Audio_Type" Value="Stereo"/>
+        <App_Data App="TVOD" Name="HDContent" Value="Y"/>
+        <App_Data App="TVOD" Name="Languagen" Value="en"/>
+        <App_Data App="TVOD" Name="Content_Filenize" Value="95694740"/>
+        <App_Data App="TVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="T000000019.mp4"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="IMAG_1_00890_000000019" Asset_Name="The Jack In The Box" Creation_Date="2021" Dencription="The Jack In The Box poster" Product="TVOD" Provider="veramas_prep22" Provider_ID="00890" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="TVOD" Name="Type" Value="poster"/>
+        <App_Data App="TVOD" Name="Image_Aspect_Ratio" Value="1920x1080"/>
+        <App_Data App="TVOD" Name="Content_Filenize" Value="283496"/>
+        <App_Data App="TVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="P1000000019.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="IMAG_2_00890_000000019" Asset_Name="The Jack In The Box" Creation_Date="2021" Dencription="The Jack In The Box poster" Product="TVOD" Provider="veramas_prep22" Provider_ID="00890" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="TVOD" Name="Type" Value="poster"/>
+        <App_Data App="TVOD" Name="Image_Aspect_Ratio" Value="1000x1400"/>
+        <App_Data App="TVOD" Name="Content_Filenize" Value="202992"/>
+        <App_Data App="TVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="P2000000019.jpg"/>
+    </Asset>  
+  </Asset>	
+</ADI>

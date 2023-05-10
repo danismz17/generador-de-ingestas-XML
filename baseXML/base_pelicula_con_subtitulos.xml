@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADI>
+  <Metadata>
+   <AMS Asset_Class="package" Asset_ID="PACK_00885_000000001" Asset_Name="Los desconocidos de siempre" Creation_Date="1958" Description="Los desconocidos de siempre Package" Product="SVOD" Provider="Qubit" Provider_ID="00885" Verb="" Version_Major="1" Version_Minor="0"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsSOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Asset_Class="title" Asset_ID="000000001" Asset_Name="Los desconocidos de siempre" Creation_Date="1958" Description="Los desconocidos de siempre Title" Product="SVOD" Provider="Qubit" Provider_ID="00885" Verb="" Version_Major="1" Version_Minor="0"/>
+      <App_Data App="SVOD" Name="Type" Value="title"/>
+      <App_Data App="SVOD" Name="Rating" Value="+13"/>
+      <App_Data App="SVOD" Name="Run_Time" Value="00:05:00"/>
+      <App_Data App="SVOD" Name="Display_Run_Time" Value="00:05"/>
+      <App_Data App="SVOD" Name="Year" Value="1958"/>
+      <App_Data App="SVOD" Name="Country_of_Origin" Value="Italia"/>
+      <App_Data App="SVOD" Name="Show_Type" Value="Movie"/>
+      <App_Data App="SVOD" Name="Category" Value="Comedia"/>
+      <App_Data App="SVOD" Language="es" Name="Genre" Value="Comedia"/>
+      <App_Data App="SVOD" Name="Original_Language" Value="es"/>
+      <App_Data App="SVOD" Name="Actors_Display" Value="Vittorio Gassman, Renato Salvatori, Carla Gravina"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Vittorio Gassman"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Renato Salvatori"/>
+      <App_Data App="SVOD" Language="es" Name="Actors" Value="Carla Gravina"/>
+      <App_Data App="SVOD" Language="es" Name="Director" Value="Mario Monicelli"/>
+      <App_Data App="SVOD" Name="Billing_ID" Value="0088500001"/>
+      <App_Data App="SVOD" Name="Licensing_Window_Start" Value="2021-09-10T06:00:00"/>
+      <App_Data App="SVOD" Name="Licensing_Window_End" Value="2025-10-15T05:59:59"/>
+      <App_Data App="SVOD" Language="es" Name="Title" Value="Los desconocidos de siempre"/>
+      <App_Data App="SVOD" Language="es" Name="Title_Brief" Value="Los desconocidos de siempre"/>
+      <App_Data App="SVOD" Language="es" Name="Summary_Short" Value="Unos ladrones intentan robar una tienda de empeños. Antes del intento del robo y durante él se llevarán más de un dolor de cabeza" />
+      <App_Data App="SVOD" Language="es" Name="Summary_Long" Value="Unos ladrones intentan robar una tienda de empeños. Antes del intento del robo y durante él se llevarán más de un dolor de cabeza" />
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="movie" Asset_ID="CONT_00885_000000001" Asset_Name="Los desconocidos de siempre" Creation_Date="1958" Description="Los desconocidos de siempre movie" Product="SVOD" Provider="Qubit" Provider_ID="00885" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="SVOD" Name="Type" Value="movie"/>
+        <App_Data App="SVOD" Name="Audio_Type" Value="Stereo"/>
+        <App_Data App="SVOD" Name="HDContent" Value="Y"/>
+        <App_Data App="SVOD" Name="Languages" Value="en"/>
+	<App_Data App="SVOD" Name="Subtitle_Languages" Value="es"/>
+	<App_Data App="SVOD" Name="Subtitle_File" Value="S000000001.srt"/>
+        <App_Data App="SVOD" Name="Content_Filesize" Value="95694740"/>
+        <App_Data App="SVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="M000000001.mp4"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="IMAG_1_00885_000000001" Asset_Name="Los desconocidos de siempre" Creation_Date="1958" Description="Los desconocidos de siempre poster" Product="SVOD" Provider="Qubit" Provider_ID="00885" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="SVOD" Name="Type" Value="poster"/>
+        <App_Data App="SVOD" Name="Image_Aspect_Ratio" Value="1920x1080"/>
+        <App_Data App="SVOD" Name="Content_Filesize" Value="283496"/>
+        <App_Data App="SVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="P1000000001.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="IMAG_2_00885_000000001" Asset_Name="Los desconocidos de siempre" Creation_Date="1958" Description="Los desconocidos de siempre poster" Product="SVOD" Provider="Qubit" Provider_ID="00885" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="SVOD" Name="Type" Value="poster"/>
+        <App_Data App="SVOD" Name="Image_Aspect_Ratio" Value="1000x1400"/>
+        <App_Data App="SVOD" Name="Content_Filesize" Value="202992"/>
+        <App_Data App="SVOD" Name="Content_Checksum" Value=""/>
+      </Metadata>
+      <Content Value="P2000000001.jpg"/>
+    </Asset>  
+  </Asset>	
+</ADI>

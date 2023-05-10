@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Generic Vubiquity Export file for Single Products
+Produced: Fri Sep 15 11:57:45 BST 2017;
+Product: 01332091
+Provider_Asset_ID: 001388413
+-->
+<ADI>
+   <Metadata>
+      <AMS Verb="" Product="TVOD" Provider="VU" Provider_ID="vubiquity.co.uk" Description="Pirates of the Caribbean: Dead Men Tell No Tales M Package" Creation_Date="2017-07-28" Version_Major="1" Version_Minor="0" Asset_Name="Pirates of the Caribbean: Dead Men Tell No Tales M" Asset_ID="PACK0000000001003454" Asset_Class="package" />
+      <App_Data Value="CableLabsVOD1.1" Name="Metadata_Spec_Version" App="TVOD" />
+      <App_Data Value="For Cable" Name="Provider_Content_Tier" App="TVOD" />
+   </Metadata>
+   <Asset>
+      <Metadata>
+         <AMS Verb="" Product="TVOD" Provider="VU" Provider_ID="vubiquity.co.uk" Description="Pirates of the Caribbean: Dead Men Tell No Tales M Title" Creation_Date="2017-07-20" Version_Major="1" Version_Minor="0" Asset_Name="Pirates of the Caribbean: Dead Men Tell No Tales M" Asset_ID="TITL0000000001364657" Asset_Class="title" />
+         <App_Data Value="title" Name="Type" App="TVOD" />
+         <App_Data Value="Cable Company" Name="Rights" App="TVOD" />
+         <App_Data Value="PG" Name="Rating" App="TVOD" />
+         <App_Data Value="02:38:12" Name="Run_Time" App="TVOD" />
+         <App_Data Value="02:38" Name="Display_Run_Time" App="TVOD" />
+         <App_Data Value="2017" Name="Year" App="TVOD" />
+         <App_Data Value="USA" Name="Country_of_Origin" App="TVOD" />
+         <App_Data Value="DIS" Name="Studio_Code" App="TVOD" />
+         <App_Data Value="The Walt Disney Company Limited" Name="Studio_Name" App="TVOD" />
+         <App_Data Value="Movie" Name="Show_Type" App="TVOD" />
+         <App_Data Value="01:00:00" Name="Maximum_Viewing_Length" App="TVOD" />
+         <App_Data Value="TVOD - Movies on DemandAction Adventure" Name="Category" App="TVOD" />
+         <App_Data Value="TVOD - Movies on DemandAll Movies A-Z" Name="Category" App="TVOD" />
+         <App_Data Value="TVOD - Movies on DemandNew Releases" Name="Category" App="TVOD" />
+         <App_Data Value="Accion y Aventura" Name="Genre" App="TVOD" />
+         <App_Data Value="Orlando Blom, Johnny Depp, Keira Knightley" Name="Actors_Display" App="TVOD" />
+         <App_Data Value="Bloom, Orlando" Name="Actors" App="TVOD" />
+         <App_Data Value="Depp, Johnny " Name="Actors" App="TVOD" />
+         <App_Data Value="Knightley, Keira" Name="Actors" App="TVOD" />
+         <App_Data Value="Espen Sandberg" Name="Director" App="TVOD" />
+         <App_Data Value="0001388413" Name="Billing_ID" App="TVOD" />
+         <App_Data Value="11909025" Name="Publish_ID" App="TVOD" />
+         <App_Data Value="2017-09-20T06:00:00" Name="Licensing_Window_Start" App="TVOD" />
+         <App_Data Value="2017-10-03T05:59:59" Name="Licensing_Window_End" App="TVOD" />
+         <App_Data Value="1" Name="Propagation_Priority" App="TVOD" />
+         <App_Data Value="99.00" Name="Suggested_Price" App="TVOD" />
+         <App_Data Value="en" Name="Original_Language" App="TVOD" />
+         <App_Data App="TVOD" Name="Title" Value="Piratas del Caribe: Los Muertos No Cuentan Cuentos" Language="es" />
+         <App_Data App="TVOD" Name="Title_Brief" Value="Piratas del Caribe: Los Muertos No Cuent" Language="es" />
+         <App_Data App="TVOD" Name="Title_Sort_Name" Value="Piratas del Caribe: Los Muertos No Cuentan Cuentos" Language="es" />
+         <App_Data App="TVOD" Name="Summary_Short" Value="El capitán Jack Sparrow se enfrentará un grupo de piratas-fantasma comandados por una de sus viejas némesis, el terrorífico capitán Salazar, recién escapado del Triángulo de las Bermudas." Language="es" />
+         <App_Data App="TVOD" Name="Summary_Long" Value="El capitán Jack Sparrow se enfrentará un grupo de piratas-fantasma comandados por una de sus viejas némesis, el terrorífico capitán Salazar, recién escapado del Triángulo de las Bermudas." Language="es" />
+         <App_Data Value="_ApplicationSupport@vubiquity.co.uk" Name="Provider_QA_Contact" App="TVOD" />
+      </Metadata>
+      <Asset>
+         <Metadata>
+            <AMS Verb="" Product="TVOD" Provider="VU" Provider_ID="vubiquity.co.uk" Description="Pirates of the Caribbean: Dead Men Tell No Tales M Movie" Creation_Date="2017-07-20" Version_Major="1" Version_Minor="0" Asset_Name="Pirates of the Caribbean: Dead Men Tell No Tales M" Asset_ID="CONT0000000002068126" Asset_Class="movie" />
+            <App_Data Value="movie" Name="Type" App="TVOD" />
+            <App_Data App="TVOD" Name="Audio_Type" Value="Stereo" />
+            <App_Data Value="N" Name="HDContent" App="TVOD" />
+            <App_Data App="TVOD" Name="Languages" Value="en" />
+            <App_Data App="SVOD" Name="Subtitle_Languages" Value="es"/>
+            <App_Data App="SVOD" Name="Subtitle_File" Value="S000000001.srt"/>
+            <App_Data App="TVOD" Name="Dubbed_Languages" Value="es" />
+            <App_Data Value="es" Name="Subtitle_Languages" App="TVOD" />
+            <App_Data Value="Y" Name="Encryption" App="TVOD" />
+            <App_Data Value="Widescreen" Name="Screen_Format" App="TVOD" />
+            <App_Data Value="15000" Name="Bit_Rate" App="TVOD" />
+            <App_Data Value="Y" Name="Copy_Protection" App="TVOD" />
+            <App_Data Value="Y" Name="Copy_Protection_Verbose" App="TVOD" />
+            <App_Data Value="1" Name="Analog_Protection_System" App="TVOD" />
+            <App_Data Value="3" Name="Encryption_Mode_Indicator" App="TVOD" />
+            <App_Data Value="3" Name="CGMS_A" App="TVOD" />
+            <App_Data Value="1316033652" Name="Content_Filesize" App="TVOD" />
+            <App_Data Value="ce45763f8b24e572444199255a0c0d49" Name="Content_Checksum" App="TVOD" />
+         </Metadata>
+         <Content Value="VU0000000003333333.ts" />
+      </Asset>
+      <Asset>
+         <Metadata>
+            <AMS Verb="" Product="TVOD" Provider="VU" Provider_ID="vubiquity.co.uk" Description="Pirates of the Caribbean: Dead Men Tell No Tales T Preview" Creation_Date="2017-07-20" Version_Major="1" Version_Minor="0" Asset_Name="Pirates of the Caribbean: Dead Men Tell No Tales T" Asset_ID="PREV0000000002068128" Asset_Class="preview" />
+            <App_Data Value="preview" Name="Type" App="TVOD" />
+            <App_Data App="TVOD" Name="Audio_Type" Value="Stereo" />
+            <App_Data Value="Widescreen" Name="Screen_Format" App="TVOD" />
+            <App_Data Value="3750" Name="Bit_Rate" App="TVOD" />
+            <App_Data Value="N" Name="Encryption" App="TVOD" />
+            <App_Data Value="N" Name="HD_Content" App="TVOD" />
+            <App_Data Value="PG" Name="Rating" App="TVOD" />
+            <App_Data Value="00:01:00" Name="Run_Time" App="TVOD" />
+            <App_Data App="TVOD" Name="Languages" Value="en" />
+            <App_Data Value="es" Name="Subtitle_Languages" App="TVOD" />
+            <App_Data Value="274696388" Name="Content_Filesize" App="TVOD" />
+         </Metadata>
+         <Content Value="he_Caribbean__Salazar_s_Revenge_-_Cablelabs_MPEG2_-_HD_-_EN_-_Trailer_CWO-2983571.HD.2.0EN.16x9.MPEG2.mpg" />
+      </Asset>
+      <Asset>
+         <Metadata>
+            <AMS Verb="" Product="TVOD" Provider="VU" Provider_ID="vubiquity.co.uk" Description="Pirates of the Caribbean: Dead Men Tell No Tales Poster" Creation_Date="2017-07-20" Version_Major="1" Version_Minor="0" Asset_Name="Pirates of the Caribbean: Dead Men Tell No Tales" Asset_ID="IMAG0000000005903978" Asset_Class="poster" />
+            <App_Data Value="poster" Name="Type" App="TVOD" />
+            <App_Data App="TVOD" Name="Image_Aspect_Ratio" Value="1920x1080" />
+            <App_Data Value="4280453" Name="Content_Filesize" App="TVOD" />
+            <App_Data Value="4ddf9fbe8db3a40d98209a4fa6560663" Name="Content_Checksum" App="TVOD" />
+         </Metadata>
+         <Content Value="piratas_del_caribe_la_venganza_de_salazar_los_L_ES.png" />
+      </Asset>
+      <Asset>
+         <Metadata>
+            <AMS Verb="" Product="TVOD" Provider="VU" Provider_ID="vubiquity.co.uk" Description="Pirates of the Caribbean: Dead Men Tell No Tales Poster" Creation_Date="2017-07-20" Version_Major="1" Version_Minor="0" Asset_Name="Pirates of the Caribbean: Dead Men Tell No Tales" Asset_ID="IMAG0000000005903979" Asset_Class="poster" />
+            <App_Data Value="poster" Name="Type" App="TVOD" />
+            <App_Data App="TVOD" Name="Image_Aspect_Ratio" Value="1000x1400" />
+            <App_Data Value="2630993" Name="Content_Filesize" App="TVOD" />
+            <App_Data Value="92883eea810b4f74056356e9dda3bc3e" Name="Content_Checksum" App="TVOD" />
+            <App_Data App="TVOD" Name="Related_To" Value="title" />
+         </Metadata>
+         <Content Value="piratas_del_caribe_la_venganza_de_salazar_los_P_ES.png" />
+      </Asset>
+      <Asset>
+         <Metadata>
+            <AMS Verb="" Product="TVOD" Provider="VU" Provider_ID="vubiquity.co.uk" Description="Pirates of the Caribbean: Dead Men Tell No Tales Poster" Creation_Date="2017-07-20" Version_Major="1" Version_Minor="0" Asset_Name="Pirates of the Caribbean: Dead Men Tell No Tales" Asset_ID="IMAG0000000005903950" Asset_Class="poster" />
+            <App_Data Value="poster" Name="Type" App="TVOD" />
+            <App_Data App="TVOD" Name="Image_Aspect_Ratio" Value="1000x1400" />
+            <App_Data Value="2630993" Name="Content_Filesize" App="TVOD" />
+            <App_Data Value="92883eea810b4f74056356e9dda3bc3e" Name="Content_Checksum" App="TVOD" />
+            <App_Data App="TVOD" Name="Related_To" Value="preview" />
+         </Metadata>
+         <Content Value="piratas_del_caribe_la_venganza_de_salazar_los_Q_ES.png" />
+      </Asset>
+   </Asset>
+</ADI>

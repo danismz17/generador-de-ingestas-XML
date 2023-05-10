@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Describe tu sitio" />
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/img/ico/favicon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Generador de EPG</title>
+  </head>
+
+  <body>
+    <div class="app-container">
+      <div class="app-background-formularios">
+        <div class="formulario-container">
+          <div class="formulario-titulo">
+            <img src="img/ico/wveratv.png" alt="" />
+            <h1 id="tipoSeleccionado">XML para temporadas</h1>
+          </div>
+          <div class="limitador" data-aos="fade-right">
+            <div class="renglon-items">
+              <h3>Cargar Archivo de Serie</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/seriev2.png"
+                  title="carga archivo de serie"
+                />
+              </div>
+              <input type="file" value="examinar" id="cargaXMLAux" />
+            </div>
+
+            <div class="boton-azul" id="btncargaXMLAux">
+              <a href="#">Cargar</a>
+            </div>
+
+            <p id="msgCargaAux"></p>
+
+            <div class="renglon-items"><h3>Nombre Proveedor</h3></div>
+
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/proveedor.png"
+                  title="Ingresa el nombre del proveedor"
+                />
+              </div>
+              <input class="campo-de-texto" type="text" id="nombreProveedor" />
+            </div>
+
+            <div class="renglon-items">
+              <h3>Nombre Archivo</h3>
+            </div>
+
+            <div class="renglon-cdt-2e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/numero.png"
+                  title="Ingresa numero del proveedor y numero de xml que corresponda"
+                />
+              </div>
+              <input
+                class="campo-de-texto-corto"
+                type="number"
+                id="idProveedor"
+                placeholder="00001"
+                min="1"
+                max="99999"
+                maxlength="5"
+                required
+              />
+              <input
+                class="campo-de-texto"
+                type="number"
+                id="numeroContenido"
+                placeholder="000000001"
+                min="1"
+                max="999999999"
+                required
+              />
+            </div>
+
+            <div class="renglon-items">
+              <h3>Título de la temporada</h3>
+            </div>
+
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/titulo.png"
+                  title="escribe el titulo de la temporada, ej. Temporada 1"
+                />
+              </div>
+              <input class="campo-de-texto" type="text" id="tituloContenido" />
+            </div>
+
+            <div class="renglon-items">
+              <h3>Orden de Temporada</h3>
+            </div>
+
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/ordendeserie.png"
+                  title="ingresa el orden al que pertenece la temporada, ej. si es la Temporada 1, en el campo de texto se coloca 1"
+                />
+              </div>
+              <input
+                class="campo-de-texto"
+                type="number"
+                id="tituloContenido"
+              />
+            </div>
+
+            <div class="renglon-items">
+              <h3>Descripción Corta</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/descripcion.png"
+                  title="coloca una descripción"
+                />
+              </div>
+              <input class="campo-de-texto" type="text" id="descCorta" />
+            </div>
+            <div class="renglon-items">
+              <h3>Descripción Larga</h3>
+            </div>
+            <div class="renglon-cdt-largo">
+              <textarea
+                name="Descripcion-larga"
+                id="descLarga"
+                cols="50"
+                rows="10"
+                class="caja-text-larg"
+              ></textarea>
+            </div>
+            <div class="renglon-items">
+              <h3>Género</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/genero.png"
+                  title="selecciona el genero de la pelicula"
+                />
+              </div>
+              <select name="Genero" id="genero" class="option-box-formularios">
+                <option value="" disabled selected hidden>Seleccionar</option>
+                <option value="Acción y Aventura">Acción y Aventura</option>
+                <option value="Comedia">Comedia</option>
+                <option value="Drama">Drama</option>
+                <option value="Familiar">Familiar</option>
+                <option value="Terror y Suspenso">Terror y Suspenso</option>
+                <option value="Documental">Documental</option>
+                <option value="Cortos">Cortos</option>
+                <option value="Ficción">Ficción</option>
+              </select>
+            </div>
+
+            <div class="renglon-items">
+              <h3>Idioma Original</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/idioma.png"
+                  title="selecciona el idioma principal de tu contenido"
+                />
+              </div>
+              <select name="idioma" id="idioma" class="option-box-formularios">
+                <option value="" disabled selected hidden>Seleccionar</option>
+                <option value="es">Español</option>
+                <option value="en">Inglés</option>
+                <option value="pt">Portugués</option>
+                <option value="fr">Francés</option>
+              </select>
+            </div>
+
+            <div class="renglon-items">
+              <h3>Clasificación por Edad</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/edad.png"
+                  title="selecciona la clasificación por edad que corresponda"
+                />
+              </div>
+              <select
+                name="Clas-edad"
+                id="clasEdad"
+                class="option-box-formularios"
+              >
+                <option value="" disabled selected hidden>Seleccionar</option>
+                <option value="atp">ATP</option>
+                <option value="+10">+10</option>
+                <option value="+13">+13</option>
+                <option value="+17">+17</option>
+                <option value="+18">+18</option>
+              </select>
+            </div>
+            <div class="renglon-items">
+              <h3>Año Creación</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/año.png"
+                  title="ingresa el año de creación de la pelicula"
+                />
+              </div>
+              <input
+                class="campo-de-texto"
+                type="number"
+                type="number"
+                name="idAño"
+                id="idAño"
+                placeholder="ej: 2022"
+                min="1800"
+                max="2100"
+                maxlength="4"
+                required
+              />
+            </div>
+            <div class="renglon-items">
+              <h3>País de Origen</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/pais.png"
+                  title="ingresa el pais de origen de la pelicula"
+                />
+              </div>
+              <input class="campo-de-texto" type="text" id="pais" />
+            </div>
+            <div class="renglon-items">
+              <h3>Tipo</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/monetizacion.png"
+                  title="alquiler TVOD - suscripcion SVOD - libre FVOD"
+                />
+              </div>
+              <select
+                name="tipo"
+                id="tipoContenido"
+                class="option-box-formularios"
+              >
+                <option value="" disabled selected hidden>Seleccionar</option>
+                <option value="TVOD">Alquiler</option>
+                <option value="SVOD">Suscripcion</option>
+                <option value="LIBRE">Libre</option>
+              </select>
+            </div>
+            <div class="renglon-items">
+              <h3>Contenido HD</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/hd.png"
+                  title="selecciona la calidad del contenido"
+                />
+              </div>
+              <select
+                name="contenido-hd"
+                id="contenidoHD"
+                class="option-box-formularios"
+              >
+                <option value="" disabled selected hidden>Seleccionar</option>
+                <option value="Y">Si</option>
+                <option value="N">No</option>
+              </select>
+            </div>
+            <div class="renglon-items">
+              <h3>Licencia desde</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/diayhora.png"
+                  title="selecciona a partir de cuando inicia la licencia del contenido"
+                />
+              </div>
+              <input
+                class="campo-de-texto"
+                type="datetime-local"
+                value="2022-01-01T00:30"
+                min="2020-01-01T00:00"
+                max="2028-01-01T00:30"
+                id="fechaInicio"
+              />
+            </div>
+            <div class="renglon-items">
+              <h3>Licencia hasta</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/diayhora.png"
+                  title="selecciona hasta cuando
+                finaliza la licencia del contenido"
+                />
+              </div>
+              <input
+                class="campo-de-texto"
+                type="datetime-local"
+                value="2028-01-01T00:30"
+                min="2022-01-01T00:00"
+                max="2028-01-01T00:30"
+                id="fechaFin"
+              />
+            </div>
+            <div class="renglon-items">
+              <h3>Nombre Actor 1</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/actor1.png"
+                  title="ingresa el nombre del actor/actriz"
+                />
+              </div>
+              <input class="campo-de-texto" type="text" id="actor1" />
+            </div>
+            <div class="renglon-items">
+              <h3>Nombre Actor 2</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/actor2.png"
+                  title="ingresa el nombre del actor/actriz"
+                />
+              </div>
+              <input class="campo-de-texto" type="text" id="actor2" />
+            </div>
+            <div class="renglon-items">
+              <h3>Nombre director</h3>
+            </div>
+
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/director.png"
+                  title="ingresa el nombre del director"
+                />
+              </div>
+              <input class="campo-de-texto" type="text" id="director" />
+            </div>
+            <div class="renglon-items">
+              <h3>Imagen Horizontal (1920x1080)</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/horizontal.png"
+                  title="carga la imagen horizontal del contenido"
+                />
+              </div>
+
+              <input type="file" value="examinar" id="imagenHorizontal" />
+            </div>
+            <div class="renglon-items">
+              <h3>Imagen Vertical (1000x1400)</h3>
+            </div>
+            <div class="renglon-cdt-1e">
+              <div class="campo-ico">
+                <img
+                  src="/img/ico/vertical.png"
+                  title="carga la imagen vertical del contenido"
+                />
+              </div>
+              <input type="file" value="examinar" id="imagenVertical" />
+            </div>
+
+            <div class="campo-boton-box">
+              <div class="boton-rojo">
+                <a href="index.html">volver atras</a>
+              </div>
+              <div class="boton-verde" id="btnCrearXML">
+                <a href="#">crear XML</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <h2>desarrollado por soporte-contenido veratv | vers 1.0 | 2022</h2>
+            <h3>Daniel Scandroglio</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+  <script src="js/FileSaver.js"></script>
+  <script src="js/main.js"></script>
+</html>
