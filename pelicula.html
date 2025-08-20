@@ -73,6 +73,8 @@
                 placeholder="000000001"
                 min="1"
                 max="999999999"
+                inputmode="numeric"
+                pattern="\d{1,9}"
                 required
               />
             </div>
@@ -331,6 +333,7 @@
             <div class="renglon-items">
               <h3>Imagen Horizontal (1920x1080)</h3>
             </div>
+            <p class="renombre" id="msgHorizontal">recuerda renombrar la imagen horizontal a P1000000000</p>
             <div class="renglon-cdt-1e">
               <div class="campo-ico">
                 <img
@@ -338,12 +341,13 @@
                   title="carga la imagen horizontal del contenido"
                 />
               </div>
-
+              
               <input type="file" value="examinar" id="imagenHorizontal" />
             </div>
             <div class="renglon-items">
               <h3>Imagen Vertical (1000x1400)</h3>
             </div>
+            <p class="renombre" id="msgVertical">recuerda renombrar la imagen vertical a P2000000000</p>
             <div class="renglon-cdt-1e">
               <div class="campo-ico">
                 <img
@@ -356,6 +360,7 @@
             <div class="renglon-items">
               <h3>Película</h3>
             </div>
+              <p class="renombre" id="msgMovie">recuerda renombrar el video a M000000000</p>
             <div class="renglon-cdt-1e">
               <div class="campo-ico">
                 <img
@@ -365,6 +370,8 @@
               </div>
               <input type="file" value="examinar" id="video" />
             </div>
+
+       <p class="renombre" id="msgTar">el tar deberias renombrarlo a PACK_00000_000000000</p>
 
             <div class="campo-boton-box">
               <div class="boton-rojo">

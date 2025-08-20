@@ -50,6 +50,10 @@ function CreateXML() {
   let provedoor = document.querySelector("#nombreProveedor").value;
   let idProveedor = document.querySelector("#idProveedor").value;
   let numeroContenido = document.querySelector("#numeroContenido").value;
+
+  // 🔐 limitar a 9 dígitos antes de usarlo en todo el flujo
+  numeroContenido = clampToNineDigits(numeroContenido);
+
   let tituloContenido = document.querySelector("#tituloContenido").value;
   let descCorta = document.querySelector("#descCorta").value;
   let descLarga = document.querySelector("#descLarga").value;
@@ -875,3 +879,85 @@ function tieneVideo() {
   return returnValue;
 
 } */
+
+// =====================
+// NUEVO: lógica de nombres P1 / P2 / M y TAR según inputs
+// =====================
+
+function clampToNineDigits(str) {
+  // Solo dígitos, máximo 9
+  return String(str).replace(/\D/g, "").slice(0, 9);
+}
+
+function pad9(numericStr) {
+  return numericStr.padStart(9, "0");
+}
+
+function clampToFiveDigits(str) {
+  // Solo dígitos, máximo 5
+  return String(str).replace(/\D/g, "").slice(0, 5);
+}
+
+function pad5(numericStr) {
+  return numericStr.padStart(5, "0");
+}
+
+function buildAssetNames(n9) {
+  // n9 ya viene con 9 dígitos
+  return {
+    horizontal: `P1${n9}`, // 11 chars
+    vertical: `P2${n9}`,   // 11 chars
+    movie: `M${n9}`,       // 10 chars
+  };
+}
+
+function updateRenameHints() {
+  const inputContenido = document.getElementById("numeroContenido");
+  const inputProveedor = document.getElementById("idProveedor");
+
+  const rawContenido = inputContenido ? inputContenido.value : "";
+  const nine = pad9(clampToNineDigits(rawContenido || "") || "0");
+
+  const rawProveedor = inputProveedor ? inputProveedor.value : "";
+  const five = pad5(clampToFiveDigits(rawProveedor || "") || "0");
+
+  const names = buildAssetNames(nine);
+
+  const h = document.getElementById("msgHorizontal");
+  const v = document.getElementById("msgVertical");
+  const m = document.getElementById("msgMovie");
+  const t = document.getElementById("msgTar");
+
+  if (h) h.textContent = `recuerda renombrar la imagen horizontal a ${names.horizontal}`;
+  if (v) v.textContent = `recuerda renombrar la imagen vertical a ${names.vertical}`;
+  if (m) m.textContent = `recuerda renombrar el video a ${names.movie}`;
+  if (t) t.textContent = `el tar deberias renombrarlo a PACK_${five}_${nine}`;
+}
+
+// Enganche al cargar y mientras se escribe (sin tocar tu onWindowsLoad)
+window.addEventListener("load", function () {
+  const nc = document.getElementById("numeroContenido");
+  const ip = document.getElementById("idProveedor");
+
+  if (nc) {
+    // Limita a 9 dígitos mientras escribe y actualiza mensajes
+    nc.addEventListener("input", function (e) {
+      const before = e.target.value;
+      const clamped = clampToNineDigits(before);
+      if (before !== clamped) e.target.value = clamped;
+      updateRenameHints();
+    });
+  }
+
+  if (ip) {
+    // Limita a 5 dígitos mientras escribe y actualiza mensaje del TAR
+    ip.addEventListener("input", function (e) {
+      const before = e.target.value;
+      const clamped = clampToFiveDigits(before);
+      if (before !== clamped) e.target.value = clamped;
+      updateRenameHints();
+    });
+  }
+
+  updateRenameHints();
+});
